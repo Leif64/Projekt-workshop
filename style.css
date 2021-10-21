@@ -10,7 +10,6 @@
 }
 
 header{
-    justify-content: space-between;
     align-items: center;
     background-color: #b32929;
     display: flex;
@@ -18,13 +17,15 @@ header{
     padding: 0px 20px;
 }
 
-p {
-    font-size: 50px;
+h1 {
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
     display: flex;
-    gap: 35px;
+    gap: 5px;
+
 }
 
 nav a {
@@ -36,4 +37,15 @@ nav a {
     margin: 20px;
     padding: 10px;
     font-size: 18px;
+    position: relative;
+    left: 450px;
+}
+
+.hvr-buttons {
+    transition-duration: 0.4s;
+}
+
+.hvr-buttons:hover {
+    background-color: white;
+    color: black;
 }
