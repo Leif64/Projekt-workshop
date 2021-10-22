@@ -49,3 +49,9 @@ nav a {
     background-color: white;
     color: black;
 }
+
+.bgimg {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    width: 100%;
+}
