@@ -83,13 +83,13 @@ nav a {
     font-size: 20px;
   }
 
-  h3 {
+  h2 {
       font-size: 30px;
       font-weight: lighter;
       padding: 20px;
   }
 
-  h4 {
+  .foodhead {
       text-align: center;
       font-size: 35px;
       padding: 30px;
@@ -109,7 +109,7 @@ nav a {
       margin-right: 200px;
   }
 
-  h5 {
+  .fooditem {
       margin-left: 200px;
       margin-right: 200px;
       font-weight: 400;
@@ -127,13 +127,19 @@ nav a {
       margin-bottom: 10px;
   }
 
-  .negi-r1 {
+  .food {
       font-size: 18px;
       font-weight: 200;
       margin-right: 325px;
   }
 
-  .negi-r2 {
+  .price {
       font-size: 18px;
       font-weight: 200;
+  }
+  
+  .bookhead {
+      text-align: center;
+      font-size: 35px;
+      padding: 30px;
   }
