@@ -142,4 +142,42 @@ nav a {
       text-align: center;
       font-size: 35px;
       padding: 30px;
+      margin-top: 50px;
+      font-weight: 200;
+      color: #b32929;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .bookpeoplecon {
+      display: flex;
+      text-align: center;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .bookamount {
+      font-size: 15px;
+      margin: 5px;
+      margin-bottom: 5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+  }
+
+  #bookpeople input[type="checkbox"] {
+      display: none;
+  }
+
+  #bookpeople span {
+      display: inline-block;
+      padding: 10px;
+      user-select: none;
+      border: 2px solid black;
+      border-radius: 3px;
+      color: black;
+  }
+
+  #bookpeople[type="checkbox"]:checked + span {
+      background-color: #b32929;
+      color: black;
   }
