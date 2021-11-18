@@ -21,13 +21,30 @@
         </nav>
     </header>
 
+    <div class="bookingbackground">
     <h2 class="bookhead">Book A Table</h2>
 
     <p class="bookamount">How Many People Do You Want To Reserve For?</p>
 
-    <p id="bookpeople">
-        <label></label><input type="checkbox" name="2" value="1"><span>2</span></label>
-    </p>
+    <div class="book_buttons">
+    <p id="booking_amounts">
+        <label><input type="radio" name="book_people" value="1"><span>2</span></label>
+        <label><input type="radio" name="book_people" value="2"><span>3</span></label>
+        <label><input type="radio" name="book_people" value="3"><span>4</span></label>
+        <label><input type="radio" name="book_people" value="4"><span>5</span></label>
+        <label><input type="radio" name="book_people" value="5"><span>6</span></label>
+      </p>
+    </div>
+
+    <p class="bookamount">Choose a date and time for your resevation</p>
+    <div class="bookingdate">
+    <form action="/book.html">
+        <input type="datetime-local" id="bookdate" name="bookdate">
+    </form>
+    </div>
+
+    <h2 class="bookhead">Contact Info</h2>
+</div>
 
 </body>
 </html>

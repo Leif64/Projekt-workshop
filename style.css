@@ -137,6 +137,14 @@ nav a {
       font-size: 18px;
       font-weight: 200;
   }
+
+  .bookingbackground {
+      background-color: #c8c2be49;
+      border-radius: 10px;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 50px;
+  }
   
   .bookhead {
       text-align: center;
@@ -164,20 +172,40 @@ nav a {
       text-align: center;
   }
 
-  #bookpeople input[type="checkbox"] {
-      display: none;
+  .book_buttons {
+      display: flex;
+      justify-content: center;
+      margin: 10px;
   }
 
-  #bookpeople span {
+  #booking_amounts input[type="radio"] {
+    display: none;
+  }
+  
+  #booking_amounts span {
+    margin: 10px;
+    user-select: none;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: black;
+  }
+  
+  #booking_amounts input[type="radio"]:checked + span {
+    background-color: #b32929;
+    color: black;
+  }
+
+  .bookingdate {
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+  }
+
+  #bookdate {
       display: inline-block;
-      padding: 10px;
-      user-select: none;
       border: 2px solid black;
       border-radius: 3px;
-      color: black;
-  }
-
-  #bookpeople[type="checkbox"]:checked + span {
-      background-color: #b32929;
-      color: black;
   }
