@@ -25,6 +25,7 @@ header{
 h1 {
     font-size: 65px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
 }
 
 nav {
@@ -191,6 +192,7 @@ nav a {
     border: 2px solid black;
     border-radius: 3px;
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   #booking_amounts input[type="radio"]:checked + span {
@@ -205,19 +207,75 @@ nav a {
   }
 
   #bookdate {
+      margin-top: 20px;
       display: inline-block;
       border: 2px solid black;
       border-radius: 3px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .Fullname {
       display: flex;
       flex-direction: row;
       justify-content: center;
+      margin: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .Email {
       display: flex;
       flex-direction: row;
       justify-content: center;
+      margin: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  .Phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bookfinish {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.booknow {
+    display: inline-block;
+    background-color: #b32929;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.4s;
+}
+
+.booknow:hover {
+    background-color: black;
+    color: white;
+}
+
+.map {
+    border: 2px solid black;
+    margin-left: 525px;
+    margin-right: 525px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacthead {
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    margin-top: 30px;
+    font-weight: 200;
+    color: #b32929;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
