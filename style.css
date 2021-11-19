@@ -209,3 +209,15 @@ nav a {
       border: 2px solid black;
       border-radius: 3px;
   }
+
+  .Fullname {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .Email {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
