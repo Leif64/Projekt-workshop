@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img 
+        class="ramen"
+        src="/donkiramen.png" alt="Picture of ramen logo">
+        <h1>DONKIRAMEN</h1>
+        <nav class = "menubar">
+            <a href="/index.html" class="hvr-buttons">Home</a>
+            <a href="/menu.html" class="hvr-buttons">Menu</a>
+            <a href="/contact.html" class="hvr-buttons">Contact</a>
+            <a href="/book.html" class="hvr-buttons">Book</a>
+        </nav>
+    </header>
+
+    <div class="bookingbackground">
+    <h2 class="bookhead">Book A Table</h2>
+
+    <p class="bookamount">How Many People Do You Want To Reserve For?</p>
+
+    <div class="book_buttons">
+    <p id="booking_amounts">
+        <label><input type="radio" name="book_people" value="1"><span>2</span></label>
+        <label><input type="radio" name="book_people" value="2"><span>3</span></label>
+        <label><input type="radio" name="book_people" value="3"><span>4</span></label>
+        <label><input type="radio" name="book_people" value="4"><span>5</span></label>
+        <label><input type="radio" name="book_people" value="5"><span>6</span></label>
+      </p>
+    </div>
+
+    <p class="bookamount">Choose a date and time for your resevation</p>
+    <div class="bookingdate">
+    <form action="/book.html">
+        <input type="datetime-local" id="bookdate" name="bookdate">
+    </form>
+    </div>
+
+    <h2 class="bookhead">Contact Info</h2>
+
+    <div class=Fullname>
+    <p>Name:</p>
+    <input type="text" name="Full Name" id="Full Name">
+    </div>
+    <div class="Email">
+        <p>Email:</p>
+        <input type="text" name="Email" id="Email">
+    </div>
+
+    <div class="Phone">
+        <p>Phone: </p>
+        <input type="text" name="Phone" id="Phone">
+    </div>
+
+    <div class="bookfinish">
+        <a href="/bookmessage.html" class="booknow">Book</a>
+    </div>
+</div>
+
+</body>
+</html>
