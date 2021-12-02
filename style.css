@@ -278,7 +278,8 @@ nav a {
     font-weight: 200;
     color: #b32929;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-=======
+}
+
 body, html {
     height: 100%;
     width: 100%;
@@ -559,5 +560,4 @@ nav a {
     font-weight: 200;
     color: #b32929;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
->>>>>>> ec4cf3a7764820384b2380f7b0222e79d362334f
 }
